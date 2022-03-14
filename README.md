@@ -9,7 +9,7 @@
 ![Styled Components](https://img.shields.io/badge/Scss-Styles-purple)
 
 # NextJs Fake Ecommerce (Ignews)
-This is a fake ecommerce to make an integration with Stripe API
+This is a fake ecommerce serverless
 
 ## Technologies Used:
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) (Language)
