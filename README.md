@@ -16,8 +16,10 @@ This is a fake ecommerce to make an integration with Stripe API
 - [Typescript](https://www.typescriptlang.org/) (Typing)
 - [React](https://pt-br.reactjs.org/) (Components)
 - [Next](https://nextjs.org/) (Static Site Generation)
-- [Scss](https://styled-components.com/) (Styles)
 - [Stripe](https://stripe.com/en-br) (Payment)
+- [NextAuth](https://next-auth.js.org/) (Authentication with Github)
+- [FaunaDB](https://fauna.com/) (Database Serverless)
+- [Scss](https://styled-components.com/) (Styles)
 
 ### Image:
 ![Capture](https://user-images.githubusercontent.com/48457700/147422308-e1c3ae41-b2f5-4f42-9e29-3ee0e0d99d38.PNG)
