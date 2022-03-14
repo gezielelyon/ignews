@@ -29,7 +29,7 @@ function Home({ product }: IHomeProps) {
           </h1>
           <p>
             Get access to all the publications <br />
-            <span>for $9.90 month</span>
+            <span>for {product.amount} month</span>
           </p>
 
           <SubscribeButton priceId={product.priceId} />
@@ -49,11 +49,14 @@ function Home({ product }: IHomeProps) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const price = await stripe.prices.retrieve("PRICE_ID");
+  const price = await stripe.prices.retrieve("price_1KYF86Ew7txXJaGGzCtcil9M");
 
   const product = {
     priceId: price.id,
-    amount: price.unit_amount / 100,
+    amount: new Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+    }).format(price.unit_amount / 100),
   };
 
   return {
