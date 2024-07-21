@@ -2,16 +2,16 @@
 
 <div align='center'>
 
-# **Next Ignews**
+# **Ignews**
 
 </div>
 
 <div align='center'>
 
-![GitHub issues](https://img.shields.io/github/issues/gezielelyon/next_ignews)
-![GitHub forks](https://img.shields.io/github/forks/gezielelyon/next_ignews)
-![GitHub starts](https://img.shields.io/github/stars/gezielelyon/next_ignews)
-![GitHub license](https://img.shields.io/github/license/gezielelyon/next_ignews)
+[![GitHub issues](https://img.shields.io/github/issues/gezielelyon/ignews)](https://github.com/gezielelyon/ignews/issues)
+[![GitHub forks](https://img.shields.io/github/forks/gezielelyon/ignews)](https://github.com/gezielelyon/ignews/network)
+[![GitHub stars](https://img.shields.io/github/stars/gezielelyon/ignews)](https://github.com/gezielelyon/ignews/stargazers)
+[![GitHub license](https://img.shields.io/github/license/gezielelyon/ignews)](https://github.com/gezielelyon/ignews)
 ![Javascript](https://img.shields.io/badge/Javascript-Language-yellow)
 ![Typescript](https://img.shields.io/badge/Typescript-Typing-blue)
 ![HTML](https://img.shields.io/badge/HTML-Hypertext-red)
